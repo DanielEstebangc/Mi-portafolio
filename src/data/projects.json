@@ -1,0 +1,30 @@
+[
+  {
+    "id": "driver-registry-app",
+    "title": "Sistema de Registro y Verificación de Conductores",
+    "description": {
+      "es": "Aplicación para gestionar el registro, verificación de seguridad y admi",
+      "en": "Application to manage driver registration, safety verification, and mana"
+    },
+    "imageUrl": "/assets/projects/driver-app.png",
+    "demoUrl": "https://mi-demo-driver.vercel.app",
+    "githubUrl": "https://github.com/tu-usuario/driver-registry",
+    "technologies": [
+      {
+        "name": "React",
+        "percentage": 50,
+        "color": "#61DAFB"
+      },
+      {
+        "name": "NestJS / Node.js",
+        "percentage": 30,
+        "color": "#E0234E"
+      },
+      {
+        "name": "PostgreSQL",
+        "percentage": 20,
+        "color": "#336791"
+      }
+    ]
+  }
+]
