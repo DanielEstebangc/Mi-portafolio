@@ -1,0 +1,48 @@
+/* ==========================================================
+   PALETAS DE COLORES (REFINADAS CON ESCALAS COMPLETAS)
+   ========================================================== */
+
+/* 1. MODO OSCURO (Verde Esmeralda - Mountain Meadow) */
+:root,
+[data-theme="dark"] {
+  /* Fondos usando tonos ultras oscuros (950, 900) */
+  --bg-primary: #022c22;         /* Tonos 950: Fondo principal */
+  --bg-secondary: #064e3b;       /* Tonos 900: Fondo de tarjetas y secciones */
+  --bg-header: rgba(2, 44, 34, 0.85);
+
+  /* Textos usando tonos ultras claros (50, 100, 200) */
+  --text-primary: #ecfdf5;       /* Tonos 50: Texto principal */
+  --text-secondary: #a7f3d0;     /* Tonos 200: Texto secundario */
+
+  /* Acentos y estados intermedios (500, 600, 400) */
+  --accent-color: #10b981;       /* Tonos 500: Verde principal */
+  --accent-hover: #059669;       /* Tonos 600: Hover */
+  --accent-glow: rgba(16, 185, 129, 0.25);
+
+  /* Bordes y UI */
+  --border-color: #065f46;       /* Tonos 800: Bordes sutiles */
+  --card-bg: #064e3b;            /* Tonos 900: Fondo de tarjeta */
+  --star-color: #34d399;         /* Tonos 400: Partículas brillando */
+}
+
+/* 2. MODO CLARO (Azul Cían - Lochmara) */
+[data-theme="light"] {
+  /* Fondos usando tonos ultras claros (50, 100) */
+  --bg-primary: #f0f9ff;         /* Tonos 50: Fondo principal */
+  --bg-secondary: #ffffff;       /* Blanco puro para tarjetas */
+  --bg-header: rgba(240, 249, 255, 0.85);
+
+  /* Textos usando tonos muy oscuros (950, 800) */
+  --text-primary: #082f49;       /* Tonos 950: Texto principal súper legible */
+  --text-secondary: #075985;     /* Tonos 800: Texto secundario */
+
+  /* Acentos y estados (600, 700) */
+  --accent-color: #0284c7;       /* Tonos 600: Azul principal */
+  --accent-hover: #0369a1;       /* Tonos 700: Hover */
+  --accent-glow: rgba(2, 132, 199, 0.2);
+
+  /* Bordes y UI */
+  --border-color: #bae6fd;       /* Tonos 200: Bordes claros */
+  --card-bg: #ffffff;
+  --star-color: #0284c7;
+}
