@@ -1,0 +1,15 @@
+{
+  "frontend": [
+    { "name": "React", "logo": "/assets/logos/react.svg" },
+    { "name": "CSS / Tailwind", "logo": "/assets/logos/css.svg" }
+  ],
+  "backend": [
+    { "name": "Node.js / NestJS", "logo": "/assets/logos/nestjs.svg" },
+    { "name": "Django", "logo": "/assets/logos/django.svg" },
+    { "name": "PostgreSQL", "logo": "/assets/logos/postgres.svg" }
+  ],
+  "devops_tools": [
+    { "name": "Git / GitHub", "logo": "/assets/logos/github.svg" },
+    { "name": "Docker", "logo": "/assets/logos/docker.svg" }
+  ]
+}
