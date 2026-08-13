@@ -1,16 +1,39 @@
-# React + Vite
+# 🚀 Personal Portfolio — Daniel Esteban Galvis Cataño
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un portafolio web moderno, interactivo y totalmente responsive desarrollado con **React** y **Vite**. Diseñado con una arquitectura limpia, soporte multidioma y temas dinámicos adaptables.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Características Principales
 
-## React Compiler
+* 🌓 **Sistema de Temas Dinámico (Modo Oscuro / Claro):** 
+  * Modo Oscuro: Paleta Verde Esmeralda (`#10B981`).
+  * Modo Claro: Paleta Azul Cían (`#0284C7`).
+* 🌐 **Soporte Multidioma (i18n):** Cambio instantáneo entre Español e Inglés mediante diccionarios en JSON.
+* 🎠 **Carrusel de Proyectos Interactivo:** Muestra de proyectos con desglose de lenguajes y tecnologías utilizadas al estilo de GitHub.
+* 🌌 **Fondo Animado e Interactivo:** Canvas interactivo con efecto de partículas/estrellas adaptables al tema activo.
+* 📱 **Diseño Responsive:** Optimizado para pantallas de móviles, tablets y escritorios.
+* ⚡ **Rendimiento Excepcional:** Construido sobre Vite para tiempos de carga ultrarrápidos y bundle optimizado.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Core:** React, JavaScript (ES6+), HTML5, CSS3 (Variables CSS dinámicas)
+* **Bundler & Tooling:** Vite
+* **Animaciones & UI:** Framer Motion, Lucide React, React Icons
+* **Control de Versiones:** Git & GitHub
+
+---
+
+## 📁 Estructura del Proyecto
+
+```text
+src/
+├── assets/          # Recursos estáticos (imágenes, logos, CV en PDF)
+├── components/      # Componentes UI reutilizables
+├── context/         # Proveedores de estado global (ThemeContext, LanguageContext)
+├── data/            # Archivos JSON locales (proyectos, stack y traducciones)
+│   └── locales/     # Diccionarios de idiomas (es.json, en.json)
+├── sections/        # Secciones principales del sitio (Hero, Projects, TechStack, Footer)
+└── styles/          # Estilos CSS globales y variables de color
