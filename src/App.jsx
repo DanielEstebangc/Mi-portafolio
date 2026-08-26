@@ -1,5 +1,6 @@
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import { HeroSection } from './sections/HeroSection';
 
 function App() {
   return (
@@ -7,14 +8,9 @@ function App() {
       {/* HEADER FIX-STICKY */}
       <Header />
 
-      {/* CONTENIDO PRINCIPAL */}
-      <main className="flex-grow max-w-6xl w-full mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold mb-8">Mi Portafolio</h1>
-        <div className="h-[150vh]">
-          <p className="text-brand-text-secondary">
-            Scrollea hacia abajo para verificar que el header se mantiene fijo arriba y el footer aparece al final...
-          </p>
-        </div>
+      <main className="flex-grow">
+        <HeroSection />
+        {/* Aquí agregaremos las secciones de Stack y Proyectos */}
       </main>
 
       {/* FOOTER */}

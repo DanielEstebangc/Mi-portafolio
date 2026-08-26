@@ -1,12 +1,13 @@
 {
   "hero": {
-    "title": "Hola, soy Daniel Esteban Galvis Cataño",
-    "subtitle": "Desarrollador de Software",
-    "downloadCv": "Descargar CV"
+    "title": "Hi, I'm Daniel Esteban Galvis Cataño",
+    "subtitle": "Software Developer",
+    "description": "Passionate about building scalable web applications, clean code, and optimized user experiences.",
+    "downloadCv": "Download Resume"
   },
   "sections": {
-    "projects": "Proyectos Destacados",
-    "stack": "Stack Tecnológico",
-    "contact": "Contacto"
+    "projects": "Featured Projects",
+    "stack": "Tech Stack",
+    "contact": "Contact"
   }
 }
