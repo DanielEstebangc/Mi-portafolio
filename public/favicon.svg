@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="25" fill="#0f172a" />
+  <text 
+    x="50%" 
+    y="55%" 
+    dominant-baseline="central" 
+    text-anchor="middle" 
+    font-family="system-ui, -apple-system, sans-serif" 
+    font-weight="900" 
+    font-size="48" 
+    fill="#3b82f6"
+    letter-spacing="-2"
+  >
+    DG
+  </text>
+</svg>
