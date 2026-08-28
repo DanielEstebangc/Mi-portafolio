@@ -4,12 +4,10 @@ import { useLanguage } from '../context/LanguageContext';
 export const LanguageToggle = () => {
   const { language, toggleLanguage } = useLanguage();
 
-  const headerBtnStyle = "flex items-center gap-2 px-3 py-2 text-xs font-semibold rounded-lg border border-brand-border bg-brand-bg-primary text-brand-text-primary hover:border-brand-accent transition-all cursor-pointer shadow-xs";
-
   return (
     <button
       onClick={toggleLanguage}
-      className={headerBtnStyle}
+      className="flex items-center gap-2 px-3 py-2 text-xs font-semibold rounded-lg border border-[var(--border-color)] bg-[var(--bg-primary)] text-[var(--text-primary)] hover:border-[var(--accent-color)] hover:text-[var(--accent-color)] transition-all cursor-pointer shadow-xs"
       aria-label="Cambiar idioma"
       title={language === 'es' ? 'Switch to English' : 'Cambiar a Español'}
     >
